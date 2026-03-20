@@ -19,7 +19,7 @@ body {
 }
 
 #page1 {
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #efeae3;
   position: relative;
@@ -238,7 +238,7 @@ nav h4 strong {
 }
 
 #page2-bottom {
-  height: 70vh;
+  height: max(35vw, 350px);
   width: 100%;
   display: flex;
   align-items: center;
